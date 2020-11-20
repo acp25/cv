@@ -1,126 +1,64 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="script.js" />
+    <title>Abe Tech Sign In</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Sign In With Abe</h2>
+        <div class="form-control">
+          <label for="username">First Name</label>
+          <input type="text" id="firstname" placeholder="Enter first name" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Last Name</label>
+          <input type="text" id="lastname" placeholder="Enter last name" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Legal Issue</label>
+          <input type="text" id="legalissue" placeholder="Enter legal issue" />
+          <small>Error message</small>
+       
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirm Password</label>
+          <input
+            type="password"
+            id="password2"
+            placeholder="Enter password again"
+          />
+          
 
-<head>
-  <meta charset="utf-8">
-  <title> 🍕🍔Alex's Personal Site</title>
-</head>
+          <div class="form-control input-group date form-group " id="datepicker">
+            <label for="appoinment">Appointment Date</label>
+            <input type="text" class="form-control" id="Dates" name="Dates" placeholder="Select days" required />
+            <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i><span class="count"></span></span>
+        </div>
+          
+          
+          <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
 
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="alex.PNG" alt="Alex Profile Picture"></td>
-      <td>
-        <h1>Alex Philibert</h1>
-        <p><em>Operations Coordinator</em></p>
-        <p>I am an operations coordinator at <strong><a href="https://mullerbev.com/?age-verified=b0265f88f2">Muller Inc.</a></strong></p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <li>Archbishop Ryan</li>
-  <li>Phila. Fire Academy</li>
-  <li>Nucamp Web Development</li>
-  </ul>
-
-  <hr />
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-
-    </thead>
-    <tbody>
-
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-    <tr>
-      <td>2010</td>
-      <td>Superman</td>
-    </tr>
-
-    <tr>
-      <td>2015</td>
-      <td>Warrior</td>
-    </tr>
-
-  </table>
-  <hr />
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table>
-          <tbody>
-          </tbody>
-          <tfoot>
-
-          </tfoot>
-          <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-
-          <tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-
-          <tr>
-            <td>Bootstrap</td>
-            <td>⭐</td>
-          </tr>
-
-          <tr>
-            <td>Photoshop</td>
-            <td>⭐⭐</td>
-          </tr>
-
-        </table>
-      </td>
-
-
-      <td>
-        <table>
-          <tbody>
-          </tbody>
-          <tfoot>
-
-          </tfoot>
-          <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-
-          <tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-
-          <tr>
-            <td>Bootstrap</td>
-            <td>⭐</td>
-          </tr>
-
-          <tr>
-            <td>Photoshop</td>
-            <td>⭐⭐</td>
-          </tr>
-
-        </table>
-      </td>
-    </tr>
-
-  </table>
-  <hr />
-  <a href="hobbies.html" />My Hobbies</a>
-  <a href="contact-me.html" />Contact Me</a>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
